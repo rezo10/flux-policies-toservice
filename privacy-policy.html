@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası - Flux</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 40px 0;
+            border-bottom: 2px solid #00d4aa;
+        }
+
+        h1 {
+            color: #1a1a1a;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .app-name {
+            color: #00d4aa;
+            font-weight: 600;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .content {
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: #1a1a1a;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .highlight {
+            background: #e8f8f5;
+            padding: 20px;
+            border-left: 4px solid #00d4aa;
+            margin: 20px 0;
+        }
+
+        footer {
+            border-top: 1px solid #eee;
+            padding: 30px 0;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+
+        a {
+            color: #00d4aa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Gizlilik Politikası</h1>
+            <p class="app-name">FLUX - Electric Vehicle Community</p>
+            <p class="last-updated">Son Güncelleme: Şubat 2026</p>
+        </header>
+
+        <div class="content">
+            <div class="highlight">
+                <p><strong>Özetle:</strong> FLUX, gizliliğinize değer verir. Sadece uygulamanın çalışması için gerekli
+                    verileri toplarız ve asla satmayız. Verilerinizi istediğiniz zaman silebilirsiniz.</p>
+            </div>
+
+            <h2>1. Topladığımız Bilgiler</h2>
+            <p>FLUX uygulamasını kullanırken aşağıdaki bilgileri topluyoruz:</p>
+            <ul>
+                <li><strong>Hesap Bilgileri:</strong> E-posta adresiniz, kullanıcı adınız, şifreniz (şifreli)</li>
+                <li><strong>Profil Bilgileri:</strong> Profil fotoğrafınız, biyografiniz, sahip olduğunuz elektrikli
+                    araç bilgileri</li>
+                <li><strong>İçerik:</strong> Paylaştığınız gönderiler, yorumlar, fotoğraflar ve mesajlar</li>
+                <li><strong>Kullanım Verileri:</strong> Uygulamayı nasıl kullandığınız (beğeniler, takip ettikleriniz,
+                    topluluk üyelikleri)</li>
+                <li><strong>Cihaz Bilgileri:</strong> IP adresi, cihaz türü, işletim sistemi (güvenlik ve performans
+                    için)</li>
+            </ul>
+
+            <h2>2. Bilgileri Nasıl Kullanıyoruz</h2>
+            <p>Topladığımız bilgileri şu amaçlarla kullanıyoruz:</p>
+            <ul>
+                <li>Hesabınızı oluşturmak ve yönetmek</li>
+                <li>Uygulamanın temel özelliklerini sağlamak (gönderi paylaşma, yorumlama, mesajlaşma)</li>
+                <li>Size kişiselleştirilmiş içerik göstermek</li>
+                <li>Güvenliği sağlamak ve kötüye kullanımı önlemek</li>
+                <li>Uygulamayı geliştirmek ve iyileştirmek</li>
+                <li>Sizinle iletişim kurmak (önemli duyurular, güvenlik bildirimleri)</li>
+            </ul>
+
+            <h2>3. Bilgi Paylaşımı</h2>
+            <p><strong>Kişisel verilerinizi asla satmayız.</strong> Bilgileriniz yalnızca şu durumlarda paylaşılır:</p>
+            <ul>
+                <li><strong>Sizin İzninizle:</strong> Profil bilgileriniz ve gönderileriniz diğer kullanıcılarla
+                    paylaşılır (uygulamanın doğası gereği)</li>
+                <li><strong>Hizmet Sağlayıcılar:</strong> Supabase (veri tabanı), Firebase (bildirimler) gibi altyapı
+                    sağlayıcılarımız</li>
+                <li><strong>Yasal Zorunluluklar:</strong> Mahkeme kararı veya yasal zorunluluk durumunda</li>
+            </ul>
+
+            <h2>4. Veri Güvenliği</h2>
+            <p>Verilerinizin güvenliğini ciddiye alıyoruz:</p>
+            <ul>
+                <li>Şifreleriniz güvenli bir şekilde şifrelenir (hash)</li>
+                <li>Tüm veri iletişimi SSL/TLS ile korunur</li>
+                <li>Sadece yetkili personel verilere erişebilir</li>
+                <li>Düzenli güvenlik güncellemeleri yapılır</li>
+            </ul>
+
+            <h2>5. Haklarınız (KVKK & GDPR)</h2>
+            <p>Verileriniz üzerinde tam kontrole sahipsiniz:</p>
+            <ul>
+                <li><strong>Erişim Hakkı:</strong> Hangi verilerimizin olduğunu öğrenebilirsiniz</li>
+                <li><strong>Düzeltme Hakkı:</strong> Yanlış bilgileri düzeltebilirsiniz</li>
+                <li><strong>Silme Hakkı:</strong> Hesabınızı ve tüm verilerinizi silebilirsiniz (Ayarlar → Hesabımı Sil)
+                </li>
+                <li><strong>İtiraz Hakkı:</strong> Veri işlemeye itiraz edebilirsiniz</li>
+                <li><strong>Taşınabilirlik:</strong> Verilerinizin bir kopyasını talep edebilirsiniz</li>
+            </ul>
+
+            <h2>6. Hesap Silme</h2>
+            <p>Hesabınızı istediğiniz zaman silebilirsiniz:</p>
+            <ul>
+                <li>Uygulamada: <strong>Profil → Ayarlar → Hesabımı Sil</strong></li>
+                <li>Hesabınız silindiğinde tüm kişisel verileriniz kalıcı olarak silinir</li>
+                <li>Bu işlem geri alınamaz</li>
+            </ul>
+
+            <h2>7. Çerezler ve İzleme</h2>
+            <p>FLUX uygulaması temel işlevsellik için çerezler kullanır:</p>
+            <ul>
+                <li><strong>Zorunlu Çerezler:</strong> Oturum yönetimi, güvenlik</li>
+                <li><strong>Analitik:</strong> Anonim kullanım istatistikleri (uygulamayı iyileştirmek için)</li>
+            </ul>
+
+            <h2>8. Çocukların Gizliliği</h2>
+            <p>FLUX, 13 yaşından küçük çocuklara yönelik değildir. 13 yaşından küçük bir kullanıcıyı fark edersek,
+                hesabını derhal sileriz.</p>
+
+            <h2>9. Değişiklikler</h2>
+            <p>Bu Gizlilik Politikası zaman zaman güncellenebilir. Önemli değişiklikler olduğunda sizi
+                bilgilendireceğiz.</p>
+
+            <h2>10. İletişim</h2>
+            <p>Gizlilik ile ilgili sorularınız için:</p>
+            <ul>
+                <li>E-posta: privacy@flux.app</li>
+                <li>Uygulama içi: Ayarlar → Geri Bildirim & Öneri</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 FLUX. Tüm hakları saklıdır.</p>
+            <p><a href="terms-of-service.html">Kullanım Şartları</a> | <a href="privacy-policy.html">Gizlilik
+                    Politikası</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
